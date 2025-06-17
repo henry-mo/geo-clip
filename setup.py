@@ -4,7 +4,7 @@ with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="geoclip",
+    name="geoclip", #test change
     version="1.2.0",
     packages=find_packages(),
     description="",
